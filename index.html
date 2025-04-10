@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .dashboard-container {
+            display: flex;
+            height: 100vh;
+        }
+        .sidebar {
+            width: 20%;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .main-content {
+            width: 80%;
+            padding: 20px;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .sidebar ul li:last-child {
+            border-bottom: none;
+        }
+        .dashboard-heading {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="sidebar">
+            <h1 class="dashboard-heading">Dashboard</h1>
+            <ul>
+                <li>Home</li>
+                <li>Overview</li>
+                <li>Reports</li>
+                <li>Settings</li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h2>Welcome to the Dashboard</h2>
+            <p>This is a placeholder for the main content of your dashboard.</p>
+            <p>You can add charts, tables, and other components here.</p>
+        </div>
+    </div>
+</body>
+</html>
